@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+body {
+  background-color: white;
+}
+
+
+/* BANNER */
+
+
+.banner {
+  position: relative;
+  background: #6525D3;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#frasebanner {
+  position: absolute;
+  font-family: "Anton", sans-serif;
+  margin: 0;
+  font-size: 70px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+#frasebanner a {
+  text-decoration: none;
+  color: #89dd68;
+  position: relative;
+}
+
+
+
+hr {
+  border: none;
+  height: 130px;
+}
+
+
+/* ONGS */
+
+.titulo {
+  color: #11438d;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+
+.nomeong {
+  padding-top: 30px;
+  color: #141517;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+
+.nomeong a {
+  text-decoration: none;
+  color: #18272F;
+  position: relative;
+}
+
+.nomeong a::before {
+  content: '';
+  background-color: #16a5aa73;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  width: 100%;
+  height: 8px;
+  transition: all .3s ease-in-out;
+}
+
+.nomeong a:hover::before {
+  bottom: 0;
+  height: 100%;
+}
+
+
+.fotoong {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid #7a7f88;
+  border-radius: 40px;
+}
+
+
+/* Apoie 2 Container */
+
+
+.titulo2 {
+  color: #6525D3;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 38px;
+}
+
+.descricao {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 20px;
+  margin-left: 30px;
+  text-align: center;
+
+}
+
+.imagemdescricao {
+  margin-top: 100px;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+}
+
+.container2 li {
+  list-style: inside;
+  margin-bottom: 10px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  list-style-position: inside;
+
+}
+
+
+.container2 li::marker {
+  color: #142bf1;
+}
+
+
+/* Resultados 3 Container */
+
+.projeto {
+  display: flex;
+}
+
+
+.imgprojeto {
+  width: 500px;
+  height: 100%;
+  border-radius: 60px;
+}
+
+.titulo3 {
+  color: #142bf1;
+  margin-bottom: 35px;
+  font-size: 38px;
+  font-family: "Raleway", sans-serif;
+}
+
+.texto3 {
+  font-size: 18px;
+  line-height: 26px;
+  font-family: "Comfortaa", sans-serif;
+}
+
+
+/* Projetos */
+
+#tituloprojetos {
+  color: rgb(15, 161, 52);
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+.card {
+  overflow: hidden;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.card-text {
+  font-size: 18px;
+  font-family: "Comfortaa", sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 30px;
+}
+
+.card-title {
+  font-family: "Raleway" , sans-serif;
+  font-size: 25px;
+}
+
+.card-img {
+  object-fit: cover;
+}
+
+/* Footer */
+
+#desenvolvedores {
+  font-family: monospace;
+  font-size: 18px;
+}

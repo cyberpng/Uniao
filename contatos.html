@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <link rel="icon" type="image/x-icon" href="./imagens/inclusivity.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://kit.fontawesome.com/ce9e0ba906.js" crossorigin="anonymous"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/boosted@5.3.3/dist/css/boosted.min.css" rel="stylesheet"
+    integrity="sha384-laZ3JUZ5Ln2YqhfBvadDpNyBo7w5qmWaRnnXuRwNhJeTEFuSdGbzl4ZGHAEnTozR" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/boosted@5.3.3/dist/js/boosted.bundle.min.js"
+    integrity="sha384-3RoJImQ+Yz4jAyP6xW29kJhqJOE3rdjuu9wkNycjCuDnGAtC/crm79mLcwj1w2o/"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/estilocontatos.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+    .navbar-nav a {
+      font-family: 'Oswald', sans-serif;
+      color: #282534;
+      font-size: 17px;
+    }
+  </style>
+
+  <title>Contato</title>
+</head>
+
+<body>
+
+
+  <!-- BARRA D NAVEGAÇÃO -->
+
+
+  <nav class="navbar navbar-expand-lg" style="background-color: #ebd50d;">
+    <div class="container-fluid">
+      <div class="navbar-brand">
+        <a class="stretched-link" href="#">
+          <img src="./imagens/inclusivity.png" width="50" height="50" alt="Logo da União Diversa" loading="lazy">
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="index.html">União Diversa</a>
+          <a class="nav-link" href="recursos.html">Recursos</a>
+          <a class="nav-link" href="programas.html">Programas</a>
+          <a class="nav-link active" href="contatos.html" style="color: black;">Contato</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+
+    <!-- BANNER -->
+
+    <div class="banner">
+      <h1 id="frasebanner">Entre em <a> Contato</a> <br> conosco!</h1>
+    </div>
+
+    <hr>
+
+
+    <!--Contato-->
+
+    <div class="container">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <h1 id="titulo"> Contato</h1>
+            <p id="subtitulocontato"> A sua opnião é importante para nós. Fique à vontade para nos enviar uma mensagem!
+              <i class="fa-regular fa-envelope"></i>
+            </p>
+            <br>
+            <br>
+            <br>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"><i class="fa-solid fa-user"></i></label>
+              <input type="text" class="form-control" id="input_nome" placeholder="Digite seu nome">
+
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"><i class="fa-solid fa-at"></i></label>
+              <input type="email" class="form-control" id="input_email" placeholder="seuemail@exemplo.com">
+            </div>
+
+
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"><i class="fa-solid fa-message"></i></label>
+              <textarea class="form-control" id="input_msg" rows="3"
+                placeholder="Mensagem"></textarea>
+            </div>
+            <br>
+            <br>
+            <div>Todos os campos acimas devem ser preenchidos obrigatoriamente.
+              
+              <br>
+              
+
+            </div>
+
+            <button type="button" class="btn btnenviar" onclick="salvar_contato()">Enviar</button>
+          </div>
+          <div class="col">
+            <img src="./imagens/contact-us.png" alt="imagem de uma atendente virtual" id="fotocontato">
+          </div>
+          
+         
+
+        </div>
+        
+      </div>
+
+    </div>
+
+
+  </main>
+  
+  
+
+  <hr>
+
+
+
+  <!--Footer-->
+
+  <footer class="footer navbar">
+    <h2 class="visually-hidden">Sitemap & information</h2>
+    <div class="container-xxl footer-social">
+      <h3 class="footer-heading me-md-3">Acompanhe nossas redes sociais</h3>
+      <ul class="navbar-nav gap-2 flex-row align-self-start">
+        <li><a href="#" class="btn btn-icon btn-social btn-twitter"><span class="visually-hidden">Twitter</span></a>
+        </li>
+        <li><a href="#" class="btn btn-icon btn-social btn-facebook"><span class="visually-hidden">Facebook</span></a>
+        </li>
+        <li><a href="#" class="btn btn-icon btn-social btn-instagram"><span class="visually-hidden">Instagram</span></a>
+        </li>
+        <li><a href="#" class="btn btn-icon btn-social btn-whatsapp"><span class="visually-hidden">WhatsApp</span></a>
+        </li>
+        <li><a href="#" class="btn btn-icon btn-social btn-linkedin"><span class="visually-hidden">LinkedIn</span></a>
+        </li>
+        <li><a href="#" class="btn btn-icon btn-social btn-youtube"><span class="visually-hidden">YouTube</span></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="text-center m-4">
+      <p id="desenvolvedores">Desenvolvido por: <strong>Larissa Silva</strong></p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <link rel="icon" type="image/x-icon" href="./imagens/inclusivity.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/boosted@5.3.3/dist/css/boosted.min.css" rel="stylesheet"
+    integrity="sha384-laZ3JUZ5Ln2YqhfBvadDpNyBo7w5qmWaRnnXuRwNhJeTEFuSdGbzl4ZGHAEnTozR" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/boosted@5.3.3/dist/js/boosted.bundle.min.js"
+    integrity="sha384-3RoJImQ+Yz4jAyP6xW29kJhqJOE3rdjuu9wkNycjCuDnGAtC/crm79mLcwj1w2o/"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/estiloindex.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+    .navbar-nav a {
+      font-family: "Oswald", sans-serif;
+      color: #282534;
+      font-size: 17px;
+    }
+  </style>
+
+  <title>Página Inicial</title>
+</head>
+
+<body style="background-color: #E4ECFB;">
+
+  <!-- BARRA DE NAVEGAÇÃO -->
+  <nav class="navbar navbar-expand-lg" style="background-color: #ebd50d;">
+    <div class="container-fluid">
+      <div class="navbar-brand">
+        <a class="stretched-link" href="#">
+          <img src="./imagens/inclusivity.png" width="50" height="50" alt="Logotipo da União Diversa" loading="lazy">
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html" style="color: black;">União Diversa</a>
+          <a class="nav-link" href="recursos.html">Recursos</a>
+          <a class="nav-link" href="programas.html">Programas</a>
+          <a class="nav-link" href="contatos.html">Contato</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    
+    <!-- CAROUSEL -->
+
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="image-container">
+            <img src="./imagens/imagemcarousel.jpg" class="d-block w-100" style="height: 680px;" width="auto"
+              alt="Imagem com diversas pessoas, simbolizando a inclusão social">
+            <div class="overlay">
+              <p class="texto1">A inclusão social é fundamental <br>para a construção de <br> uma sociedade <br> mais
+                justa e <br> igualitária.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="image-container">
+            <img src="./imagens/imagemcarousel4.jpeg" class="d-block w-100" style="height: 680px;" width="auto"
+              alt="Imagem colorida simbolizando a inclusão social">
+            <div class="overlay">
+              <p class="texto2">Abraçando a diversidade <br> construindo oportunidades <br> para todos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="image-container">
+            <img src="./imagens/DIB_Hero_1920x1080_01A-01.jpg" class="d-block w-100" style="height: 680px;" width="auto"
+              alt="Imagem colorida simbolizando a inclusão social">
+            <div class="overlay">
+              <p class="texto3">Uma sociedade onde<br> todos tenham <br>voz <br>e <br>vez.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+
+  <footer class="footer navbar">
+    <h2 class="visually-hidden">Sitemap & information</h2>
+    <div class="container-xxl footer-social">
+      <h3 class="footer-heading me-md-3">Acompanhe nossas redes sociais</h3>
+      <ul class="navbar-nav gap-2 flex-row align-self-start">
+        <li><a href="#" class="btn btn-icon btn-social btn-twitter" aria-label="Twitter"><span
+              class="visually-hidden">Twitter</span></a>
+        </li>
+        <li><a href="#" class="btn btn-icon btn-social btn-facebook" aria-label="Facebook"><span
+              class="visually-hidden">Facebook</span></a>
+        </li>
+        <li><a href="#" class="btn btn-icon btn-social btn-instagram" aria-label="Instagram"><span
+              class="visually-hidden">Instagram</span></a>
+        </li>
+        <li><a href="#" class="btn btn-icon btn-social btn-whatsapp" aria-label="Whatsapp"><span
+              class="visually-hidden">WhatsApp</span></a>
+        </li>
+        <li><a href="#" class="btn btn-icon btn-social btn-linkedin" aria-label="Linkedin"><span
+              class="visually-hidden">LinkedIn</span></a>
+        </li>
+        <li><a href="#" class="btn btn-icon btn-social btn-youtube" aria-label="Youtube"><span
+              class="visually-hidden">YouTube</span></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="text-center m-4">
+      <p id="desenvolvedores">Desenvolvido por: <strong>Larissa Silva</strong></p>
+    </div>
+
+  </footer>
+
+
+
+</body>
+
+</html>

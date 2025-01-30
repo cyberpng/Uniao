@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+
+/* Carousel*/
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  transition: opacity 0.5s ease;
+}
+
+.image-container:hover img {
+  opacity: 0.5;
+  /* Esmaece a imagem ao passar o mouse */
+  filter: blur(8px);
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ebc39070;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+
+
+.texto1 {
+  padding-right: 200px;
+  font-size: 70px;
+  color: #1b37e2;
+  font-family: "Abril Fatface", serif;
+  text-align: left;
+  display: flex;
+
+}
+
+
+
+.texto2 {
+  padding-left: 200px;
+  font-size: 76px;
+  color: #442d0d;
+  font-family: "Abril Fatface", serif;
+  text-align: right;
+  display: flex;
+}
+
+
+.texto3 {
+  font-size: 77px;
+  color: #1b3e6e;
+  font-family: "Abril Fatface", serif;
+  text-align: left;
+  padding-right: 500px;
+  display: flex;
+
+}
+
+/* Conceitos sobre Inclusão Social */
+
+.conceito {
+  display: flex;
+}
+
+.img-conceito {
+  width: 100%;
+  height: 100%;
+  border-radius: 60px;
+}
+
+.texto5 span {
+  color: black;
+  position: relative;
+}
+
+.titulo5 {
+  color: #142bf1;
+  margin-bottom: 35px;
+  font-size: 38px;
+  font-family: "Raleway", sans-serif;
+}
+
+.texto5 {
+  font-size: 18px;
+  line-height: 26px;
+  font-family: " Comfortaa", sans-serif;
+}
+
+
+/* Rodapé */
+
+
+#desenvolvedores {
+  font-family: monospace;
+  font-size: 18px;
+}
+
+hr {
+  height: 130px;
+  border: none;
+}
