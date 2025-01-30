@@ -19,5 +19,3 @@ JavaScript - Para validações do formulário de contato.
 
 Bootstrap
 
-## Licença
-Este projeto é de propriedade exclusiva de Larissa Silva dos Santos e não pode ser reproduzido, modificado ou redistribuído sem permissão expressa. Todos os direitos reservados.
